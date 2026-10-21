@@ -1,4 +1,4 @@
-# Pulsares e Meteoritos: extração de conhecimento em dois céus diferentes
+# Pulsares e Meteoritos: Um mesmo céu, diversos conhecimentos.
 
 Trabalho da disciplina de **Mineração de Dados e Aprendizado de Máquina**. A proposta (`docs/proposta.pdf`) pede duas bases de dados percorridas pelas etapas do processo de descoberta de conhecimento (KDD): hipóteses, seleção, pré-processamento, transformação, mineração e, principalmente, **avaliação e interpretação**. Os modelos são os vistos em aula.
 
