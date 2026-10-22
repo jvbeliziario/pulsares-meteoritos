@@ -119,9 +119,3 @@ No teste, SVM linear e Logística empatam em AUC-PR (0,933). A Random Forest tem
 2. **Modelos simples bastam quando a estrutura é simples.** Logística e SVM linear empatam com MLP e Random Forest em pulsares. Em meteoritos, árvores ganham com folga porque as regiões de busca são retângulos em lat/lon/ano.
 3. **Acurácia engana nas duas bases.** AUC-PR e recall contam a história real. A escolha do limiar depende do custo de cada erro.
 4. **Hipóteses refutadas foram as mais informativas.** A H1 temporal e a H4 global só fizeram sentido depois de identificar o confundidor (a Antártida e as campanhas a partir de 1969).
-
-## Pendências / ressalvas
-- Rodar os dois notebooks de novo antes do relatório. Algumas células foram simplificadas e as saídas salvas podem não corresponder ao código atual (em especial a árvore rasa da seção B4).
-- A anotação do EDA sobre a H2 cita `ip_kurt` como atributo mais correlacionado com a classe (Pearson). Pela AUC univariada, o mais informativo é `ip_skew`. Vale citar as duas métricas para não parecer contradição.
-- O agrupamento de `recclass` em famílias é uma decisão nossa e deve ser documentado no relatório.
-- Próximo passo possível (etapa 7): validar a hipótese de "esforço de busca" cruzando os registros com densidade populacional ou com datas de expedições.
